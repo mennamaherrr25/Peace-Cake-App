@@ -42,17 +42,24 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter_icons:
+flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/peace_cake_logo_transparent_512.png"
-
+  image_path: assets/peace_cake_logo_transparent_512.png
+  
 flutter_native_splash:
-  color: "#ffffff" # لون الخلفية
-  image: assets/peace_cake_logo_transparent_512.png # اللوجو
+  color: "#FFFFFF"
+  image: assets/peace_cake_logo_transparent_512.png
   android: true
   ios: true
-  web: false  
+  android_gravity: center
+  ios_content_mode: center
+# flutter_native_splash:
+#   color: "#ffffff" # لون الخلفية
+#   image: assets/peace_cake_logo_transparent_512.png # اللوجو
+#   android: true
+#   ios: true
+#   web: false  
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
